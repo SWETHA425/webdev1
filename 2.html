@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>appointment</title>
+</head>
+<body>
+	<form method="GET">
+		first name: <input type="text" name="firstname"><br>
+		last name: <input type="text" name="lastname"><br>
+		email: <input type="email" name="email" required><br>
+		mobile <input type="number" name="mobile" min="10" required><br>
+		gender: <br>
+		    <input type="radio" name="gender" value="male">male <br>
+		    <input type="radio" name="gender" value="female">female<br>
+		    <input type="radio" name="gender" value="others">others<br>
+		city:<br>
+		<select name="city">
+			<option value="hyderabad">hyderabad</option>
+			<option value="secunderabad">secunderabad</option>
+			<option value="mehdipatnam">mehdipatnam</option>
+			<option value="koti">koti</option>
+		</select><br>
+		speciality:
+		<select name="speciality">
+			<option value="cardio">cardio</option>
+			<option value="dentist">dentist</option>
+			<option value="neuro">neuro</option>
+		</select><br>
+		date: <input type="date" name="date"><br>
+		<div class="select-wrapper">
+			slot:<select name="slot" id="slot" class="classic form-control">
+				<option value>select slot</option>
+				<option value="1">9:00-9:30</option> ==$0
+				<option value="2">9:30-10:00</option>
+			</select>
+		</div><br>
+		<input type="submit" name="book">
+		<input type="reset" name="reset"><br>
+		<a href="1.html">home</a>
+	</form>
+
+</body>
+</html>
